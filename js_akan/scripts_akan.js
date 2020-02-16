@@ -2,7 +2,7 @@ function calcAkanName(){
     var Days =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday",];
     var maleName =["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame",];
     var femaleName =["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama",];
-    //declaring the variables to be used
+    //declaring the variables to be used in calculating birthday
     var Year =parseInt(document.getElementById("year").value);
     var Month =parseInt(document.getElementById('month').value);
     var Day =parseInt(document.getElementById("day").value);
