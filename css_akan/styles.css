@@ -40,14 +40,14 @@ body{
     text-align: center;
    }
 
-  h2{
+  h2 {
     padding-left:-2px;
     text-align: center;
     font-size: 40px;
     color:white ;
    }
 
-  .content p{
+  .content p {
     margin: 0;
     padding:0;
     margin-bottom: 20px;
