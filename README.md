@@ -2,7 +2,9 @@
 My second weekly independent project on the Ghananian Akan Naming System *(G.A.N.S)*
 
 *By DUNCAN KIRAGU*
+
 *@Duncan-Kiragu*
+
 
 ## DESCRIPTION
 Akan-Names is a web application that enables a person to tell the day of the week in which they were born and their corresponding
