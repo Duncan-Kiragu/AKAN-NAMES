@@ -60,6 +60,7 @@ body{
 
   .jumbotron, .words {
      background-color: grey;
+     
    }
   .content input[type="submit"]{
     border:none;
