@@ -27,7 +27,7 @@ body{
     font-size: 30px;
    }
 
-  .content{
+  .content {
   
     color: black;
     top: 4%;
@@ -80,7 +80,7 @@ body{
     color: #fff;
    }
 
-  .gender{
+  .gender {
     border:none;
     outline: none;
     height:40px;
@@ -88,7 +88,6 @@ body{
     background: transparent;
     border-style: double;
     border-radius: 20px;
-
    }
 
   .content input[type="submit"]:hover{
