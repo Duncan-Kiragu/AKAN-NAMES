@@ -6,7 +6,7 @@ body{
    background-color: tomato;
    }
   
- .content{
+ .content {
     margin: 0;
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://i.pinimg.com/originals/96/19/82/96198299f9f1a56c20f61f2d93f15bfb.jpg");
     background-size: cover;
@@ -15,7 +15,7 @@ body{
     background-repeat: no-repeat;
    }
 
-  body{
+  body {
       margin: 0;
       background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://previews.123rf.com/images/argus456/argus4561702/argus456170219971/72131118-grunge-old-ghana-flag.jpg");
       background-size: cover;
