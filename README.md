@@ -19,7 +19,15 @@ cd to the Akan-Names directory
 Open the index.html on your favorite browser but *preferably Chrome or Chromium browser*
 
 ## BEHAVIOUR DRIVEN DEVELOPMENT(B.D.D)
-The website prompts the user to enter the Date of birth using numerical data in the text boxes outlined.Ensuring the checkboxes have been checked.the program adds the data collected on the format yyyy/mm/dd and then finds the day of the week using 0-6 numerals to show the day e.g 0=Sunday.It later gives an alert "your Akan name is" showing the child's name and later gives an alert "You were born on " showing the day of the week...
+The website has a form at the bottom where the data for computation which in this case is gender and birth day details is input.The data is processed where it runs through logical and mathematical comparisons and gives results in form of an alert stating:
+*"your Akan name is"* 
+showing the the input name and later gives an alert 
+*"and you were born on "*
+a specific day of the week
+
+# KNOWN BUGS
+The web app does not account for transgender people. The web app also displays output through alerts instead of an embedded message
+
 
 ## TECHNOLOGIES USED
 *HTML 5*
