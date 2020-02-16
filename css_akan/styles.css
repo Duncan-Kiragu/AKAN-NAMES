@@ -1,0 +1,167 @@
+@import url('bootstrap.min.css');
+@import url('font-awesome.css');
+@import url('animate.css');
+
+body{
+   background-color: tomato;
+   }
+  
+ .content{
+    margin: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://i.pinimg.com/originals/96/19/82/96198299f9f1a56c20f61f2d93f15bfb.jpg");
+    background-size: cover;
+    background-size: cover;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+  
+  
+   }
+
+  body{
+      margin: 0;
+      background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://previews.123rf.com/images/argus456/argus4561702/argus456170219971/72131118-grunge-old-ghana-flag.jpg");
+      background-size: cover;
+      font-family: sans-serif;
+      background-repeat: no-repeat;
+
+   }
+   .
+
+  .header p{
+    font-size: 30px;
+   }
+
+  .content{
+  
+    color: black;
+    top: 4%;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%, 50%);
+    height: 700px;
+    padding: 20px 30px;
+    margin-bottom: 20%;
+    text-align: center;
+   }
+
+  h2{
+    padding-left:-2px;
+    text-align: center;
+    font-size: 40px;
+    color:white ;
+   }
+
+  .content p{
+    margin: 0;
+    padding:0;
+    margin-bottom: 20px;
+    font-weight:bold;
+   }
+
+  .jumbotron, .words {
+     background-color: grey;
+   }
+  .content input[type="submit"]{
+    border:none;
+    outline: none;
+    height:40px;
+    width: 200px;
+    background: coral;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+   }
+
+  .content input[type="text"]{
+    border:none;
+    outline: none;
+    height:40px;
+    width: 300px;
+    background: transparent;
+    border-style: double;
+    border-radius: 20px;
+    color: #fff;
+   }
+
+  .gender{
+    border:none;
+    outline: none;
+    height:40px;
+    width: 300px;
+    background: transparent;
+    border-style: double;
+    border-radius: 20px;
+
+   }
+
+  .content input[type="submit"]:hover{
+    cursor:pointer;
+    background: yellow;
+    color:#000;
+   }
+
+  .content input[type="submit"] {     
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;  
+    outline: dotted;      
+   }
+
+  h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color:white;
+    font-size: 50px;
+  
+   }
+  p{
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+   }
+
+  .day{
+    align-items: center;
+
+   }
+ .text, h2{
+    display: inline-block;
+    font-size: large;
+    background-color: wheat;
+    color: black;
+    text-align: center;
+
+   }
+
+  .female, .male{
+    background-color: whitesmoke;
+    color: black;
+    width: 100px;
+    height: 70px;
+   }
+
+  * {
+    box-sizing: border-box;
+   }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+    text-align: center;
+   }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+   }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+     }
+   }

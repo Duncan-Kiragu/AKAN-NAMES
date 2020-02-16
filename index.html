@@ -1,0 +1,106 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" href="css_akan/styles.css" type="text/css">
+  <link rel="stylesheet" href="css_akan/font-awesome.css" type="text/css">
+  <link rel="stylesheet" href= "css_akan/bootstrap.min.css/" type="text/css">
+  <script src="js_akan/scripts_akan.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Akan Names</title> 
+</head>
+<body>
+
+<div class="container">
+  <div class="jumbotron">
+<h2 class="words">Ghananian Akan Names</h2>
+<p class="words">
+   This is a web application that takes a user's birthday and
+   calculates the day of the week they were born and then depending on their 
+   gender outputs their Akan Name. 
+   Akan names are derived from Ghanian culture. 
+   Frequently in Ghana, children are given their first name as a 'day name' 
+   which corresponds to the day in the week they were born.
+
+</p>
+</div>
+</div>
+<div class="row">
+  <div class="column" style="background-color: transparent;">
+    <h2>About</h2>
+    <p>Male
+      Sunday: Kwasi
+      <br> <br>
+      Monday: Kwadwo
+      <br> <br>
+      Tuesday: Kwabena
+      <br> <br>
+      Wednesday: Kwaku
+      <br> <br>
+      Thursday:  Yaw
+      <br> <br>
+      Friday: Kofi
+      <br> <br>
+      Saturday: Kwame
+    </p>
+  </div>
+  <div class="column" style="background-color: transparent">
+    <h2>Female</h2>
+    <p>
+      Female<br> <br>
+Sunday: Akosua
+<br> <br>
+Monday: Adwoa
+<br> <br>
+Tuesday: Abenaa
+<br> <br>
+Wednesday: Akua
+<br> <br>
+Thursday:  Yaa
+<br> <br>
+Friday: Afua
+<br> <br>
+Saturday: Ama
+    </p>
+  </div>
+  <div class="column" style="background-color: transparent;">
+    <h2>About It</h2>
+    <p>
+      Most people do know when their birthdays are,<br><br> but some might not know what day of the week they were born. 
+      <br> <br>
+      Luckily for us, there are ways to calculate the day of the week <br><br> from a specific date through the web application
+      <br> <br>
+      Input your birthday in the form below<br><br> and also gender then click submit
+    </p>
+  </div>
+</div>
+
+  <div class="content">
+   <div class="form">
+     <form>
+           <p class="text">Please fill in the details of your date of birth in order to get your Akan name</p>
+           <br><br>
+           <h2>Input your details here</h2>
+           <p class="day"><em>Day</em></p>
+           <input type="text" id="day" name="day" placeholder="        Input day of birth" min="1" max="31" required>Day  <br> <br>
+           <p><em>Month</em></p>
+           <input type="text" id="month" name="month" placeholder="      Input month of birth" min="1" max="12" required>Month  <br> <br>
+           <p><em>Year</em></p>
+           <input type="text" id="year" name="year" value="" placeholder="    Input year of birth" min="1900" required>Year   <br> <br>
+           <label for="gender">Gender: </label> <br> <br>
+           <select name="gender" id="gender" required><br> <br>
+            <div class="gender">
+              <option class="female" id="Female" value="female" size="50">Female</option>
+              <option class="male" id="Male" value="male" size="50">Male</option>
+             </select> <br> <br>
+         </div>
+       
+           <input type="submit" name="submit" onclick="calcAkanName()">
+      </div>
+  
+     </form>
+</body>
+</html>
