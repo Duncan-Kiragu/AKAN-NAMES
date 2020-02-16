@@ -23,7 +23,7 @@ function calcAkanName(){
         alert("your Akan name is "+maleName[BirthDay])
         alert("and you were born on a"+Days[BirthDay])
     }
-    //output depending on gender selection
+    //output depending on gender selection either male or female
     else {
         alert("Your Akan name is "+femaleName[BirthDay])
         alert("and you were born on a "+Days[BirthDay])
