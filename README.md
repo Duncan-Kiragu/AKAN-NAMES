@@ -25,7 +25,7 @@ showing the the input name and later gives an alert
 *"and you were born on "*
 a specific day of the week
 
-# KNOWN BUGS
+## KNOWN BUGS
 The web app does not account for transgender people. The web app also displays output through alerts instead of an embedded message
 
 
