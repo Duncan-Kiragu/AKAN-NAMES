@@ -17,16 +17,16 @@ function calcAkanName(){
         alert("Wrong date input!!!!")
     }
     var day= new Date(Year +"/"+ Month+"/"+ Day);
-    var BirthDay= day.getDay();
+    var Bday= day.getDay();
   
     if(Male.checked==true){
-        alert("your Akan name is "+maleName[BirthDay])
-        alert("and you were born on a"+Days[BirthDay])
+        alert("your Akan name is "+maleName[Bday])
+        alert("and you were born on a"+Days[Bday])
     }
     //output depending on gender selection either male or female
     else {
-        alert("Your Akan name is "+femaleName[BirthDay])
-        alert("and you were born on a "+Days[BirthDay])
+        alert("Your Akan name is "+femaleName[Bday])
+        alert("and you were born on a "+Days[Bday])
    }
   }
   
