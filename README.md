@@ -11,9 +11,9 @@ Akan-Names is a web application that enables a person to tell the day of the wee
 Ghananian Akan names which are heavily dependent on gender and the day of birth. 
 
 ## SETUP
-Open the live link to the website located at the description section or at the bottom of this documentation 
+Open the live link to the website *https://duncan-kiragu.github.io/AKAN-NAMES/* 
 It requires Internet connection to be able to connect.
-If you are using a Linux or Mac based operating system :*open your terminal and type ### git clone https://github.com/Duncan-Kiragu/AKAN-NAMES.git*
+If you are using a Linux or Mac based operating system :*open your terminal and type git clone https://github.com/Duncan-Kiragu/AKAN-NAMES.git*
 extract the file
 cd to the Akan-Names directory
 Open the index.html on your favorite browser but *preferably Chrome or Chromium browser*
